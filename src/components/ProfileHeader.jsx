@@ -39,7 +39,7 @@ function ProfileHeader() {
               className="size-14 rounded-full overflow-hidden relative group cursor-pointer"
             >
               <img
-                src={selectedImg || authUser.profilrPic || "/avatar.png"}
+                src={selectedImg || authUser.profilePic || "/avatar.png"}
                 alt="User Img"
                 className="size-full object-cover"
               />
@@ -62,7 +62,7 @@ function ProfileHeader() {
 
           {/* USERNAME & ONLINE TEXT */}
           <div>
-            <h3 className="text-slate-200 font-medium text-base max-w-[180px] truncate">
+            <h3 className="text-slate-200 font-medium text-base max-w-45 truncate">
               {authUser.fullName}
             </h3>
 
