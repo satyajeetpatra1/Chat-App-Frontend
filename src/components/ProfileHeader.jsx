@@ -39,7 +39,7 @@ function ProfileHeader() {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           {/* AVATAR */}
-          <div className="avatar online">
+          <div className="avatar avatar-online">
             <button
               onClick={() => fileInputRef.current.click()}
               className="size-14 rounded-full overflow-hidden relative group cursor-pointer"

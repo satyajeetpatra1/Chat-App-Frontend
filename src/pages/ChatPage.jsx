@@ -11,7 +11,7 @@ function ChatPage() {
   const { activeTab, selectedUser } = useChatStore();
 
   return (
-    <div className="relative w-full max-w-6xl h-180">
+    <div className="relative w-full max-w-6xl md:h-[90vh] h-[80vh]">
       <BorderAnimatedContainer>
         {/* Left Side */}
 
